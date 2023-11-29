@@ -35,7 +35,7 @@ Hi&nbsp;
 <br>
 
 <img height="110px" src="https://count.getloli.com/get/@:choko1229?theme=rule34" alt=":choko1229" />
-<img src="https://github-profile-trophy.vercel.app/wakatime?username=choko1229&theme=algolia&no-bg=true&no-frame=true&column=4&margin-w=15&margin-h=15" />
+<img height="140px" src="https://github-readme-stats.vercel.app/wakatime?username=choko1229&layout=compact&theme=transparent&hide_border=true&hide=contribs,prs&count_private=true" />
 </div>
 
 <br>
