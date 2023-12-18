@@ -43,78 +43,7 @@ Hi&nbsp;
 </div>
 
 <br>
-<br>
-
-<h2>🔥 Hot Repositories</h2>
-
-<br>
-
-<div align="center">　<!-- repository::center -->
-<a href="https://github.com/choko1229/ArchLinux-DotFiles">
-    <img height="140px" align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=choko1229&repo=ArchLinux-DotFiles&layout=compact&theme=transparent&hide_border=true&count_private=true" />
-</a>
-<h3 align="left">　</h3>
-<p align="left">　</p>
-<h1></h1>
-</div>　<!-- repository::center -->
-<!-- =================================================== -->
-<div align="center">　<!-- repository::center -->
-<a href="https://github.com/choko1229/Neovim-Config">
-    <img height="140px" align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=choko1229&repo=Neovim-Config&layout=compact&theme=transparent&hide_border=true&count_private=true" />
-</a>
-<h3 align="left">　</h3>
-<p align="left">　</p>
-<h1></h1>
-</div>　<!-- repository::center -->
-<!-- =================================================== -->
-<div align="center">　<!-- repository::center -->
-<a href="https://github.com/choko1229/C-CLI-Clock">
-    <img height="140px" align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=choko1229&repo=C-CLI-Clock&layout=compact&theme=transparent&hide_border=true&count_private=true" />
-</a>
-<h3 align="left">　</h3>
-<p align="left">　</p>
-<h1></h1>
-</div>　<!-- repository::center -->
-<!-- =================================================== -->
-
-## 🌴 Development environment
-
-- Arch Linux
-- WezTerm
-- Neovim
-
-### 🛠️ Tech Stack
-
-- **Regularly Used Languages:**
-  - JavaScript
-  - TypeScript
-  - C
-  - PHP
-  - Shell
-- **Experimental Tech:**
-  - React
-  - Go
-
-### 🌈 Future Goals
-
-- Cloud-based Development
-
-### 🕵️ Interests
-
-- Web Security
-- Low-Level Programming
 
 立ち寄っていただきありがとうございます！
 
 <h3 align="right"><a href="https://github.com/choko1229/">choko1229</a>/<a href="https://github.com/choko1229/choko1229">choko1229</a> - プロフィール</h3>
-
-<!-- **choko1229/choko1229** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-Here are some ideas to get you started:
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ... -->
