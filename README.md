@@ -46,4 +46,6 @@ Hi&nbsp;
 
 立ち寄っていただきありがとうございます！
 
+ここで公開しているリポジトリは全てオープンソースです。
+
 <h3 align="right"><a href="https://github.com/choko1229/">choko1229</a>/<a href="https://github.com/choko1229/choko1229">choko1229</a> - プロフィール</h3>
