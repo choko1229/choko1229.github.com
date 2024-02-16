@@ -16,6 +16,9 @@
     .mobile {
         visibility: hidden;
     }
+    .mobile *{
+        display: none;
+        }
 
     .card {
         width: 450px;
