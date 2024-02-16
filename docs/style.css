@@ -3,10 +3,7 @@
         visibility: hidden;
     }
 
-    .icon,
-    .line,
-    .pc .profile,
-    {
+    .pc *{
     display: none;
     }
 
@@ -52,6 +49,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .card {
@@ -69,7 +67,6 @@ a {
 
 .card-mobile {
     margin: auto;
-    position: relative;
     background-color: #00000016;
     width: calc(100vw - 104px);
     height: auto;
@@ -79,6 +76,13 @@ a {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 2px 2px 4px #0000001d;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .icon {
