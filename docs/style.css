@@ -1,3 +1,14 @@
+:root {
+    --card: #ffffff16;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --card: #00000016;
+    }
+}
+
+
 @media screen and (max-width: 520px) {
     .pc {
         visibility: hidden;
@@ -33,6 +44,7 @@ body {
     font-family: LINESeedJP;
 }
 
+
 @font-face {
     font-family: "LINESeedJP";
     src: url(./LINESeedJP_A_TTF_Rg.ttf);
@@ -59,7 +71,7 @@ a {
     display: flex;
     position: relative;
     top: calc(50vh - 107px);
-    background-color: #00000016;
+    background-color: var(--card);
     height: 150px;
     padding: 32px;
     border-radius: 16px;
@@ -70,7 +82,7 @@ a {
 
 .card-mobile {
     margin: auto;
-    background-color: #00000016;
+    background-color: var(--card);
     width: calc(100vw - 104px);
     height: auto;
     padding: 32px;
