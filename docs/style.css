@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    color: #fafafa;
+    font-family: LINESeedJP;
+}
+
+@font-face {
+    font-family: "LINESeedJP";
+    src: url(./LINESeedJP_A_TTF_Rg.ttf);
+}
+
+h1,h2,p,a{
+    margin: 0px;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card{
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: calc(50vh - 107px);
+    background-color: #fafafa16;
+    width: 450px;
+    height: 150px;
+    padding: 32px;
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+    box-shadow: 16px 16px 32px #00000055;
+}
+.icon{
+    height: 100%;
+    width: 128px;
+}
+.icon img{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: calc(50% - 64px);
+    border-radius: 100%;
+    width: 128px;
+    filter: drop-shadow(4px 4px 5px #000000a9);
+}
+.line{
+    margin: 0px 32px;
+    width: 1px;
+    background-color: #fafafaa7;
+}
+.profile{
+    width: 100%;
+    height: auto;
+    margin: auto 0px;
+}
+.name{
+    text-align: center;
+}
+.info{
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.sns{
+    display: flex;
+    width: calc(32px * 5);
+    height: 32px;
+    margin: 0px auto;
+    filter: drop-shadow(1px 1px 2px #00000025);
+}
+
+.sns-icon{
+    width: 32px;
+    height: 32px;
+    filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
+}
+
+.sns-big{
+    width: 27px;
+    height: 27px;
+    margin: 2.5px;
+    filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
+}
