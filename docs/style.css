@@ -1,4 +1,33 @@
-body{
+@media screen and (max-width: 520px) {
+    .pc {
+        visibility: hidden;
+    }
+
+    .icon,
+    .line,
+    .pc .profile,
+    {
+    display: none;
+    }
+
+.card {
+    width: 0px;
+}
+}
+
+@media screen and (min-width: 521px) {
+    .mobile {
+        visibility: hidden;
+    }
+
+    .card {
+        width: 450px;
+        margin: auto;
+    }
+}
+
+
+body {
     margin: 0px;
     color: #fafafa;
     font-family: LINESeedJP;
@@ -9,11 +38,14 @@ body{
     src: url(./LINESeedJP_A_TTF_Rg.ttf);
 }
 
-h1,h2,p,a{
+h1,
+h2,
+p,
+a {
     margin: 0px;
 }
 
-.background{
+.background {
     width: 100vw;
     height: 100vh;
     background-image: url(./background.jpeg);
@@ -22,13 +54,11 @@ h1,h2,p,a{
     background-position: center;
 }
 
-.card{
+.card {
     display: flex;
-    margin: auto;
     position: relative;
     top: calc(50vh - 107px);
-    background-color: #fafafa16;
-    width: 450px;
+    background-color: #00000016;
     height: 150px;
     padding: 32px;
     border-radius: 16px;
@@ -36,11 +66,27 @@ h1,h2,p,a{
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 16px 16px 32px #00000076;
 }
-.icon{
+
+.card-mobile {
+    margin: auto;
+    position: relative;
+    background-color: #00000016;
+    width: calc(100vw - 104px);
+    height: auto;
+    padding: 32px;
+    padding-bottom: 64px;
+    border-radius: 16px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 4px #0000001d;
+}
+
+.icon {
     height: 100%;
     width: 128px;
 }
-.icon img{
+
+.icon img {
     position: relative;
     display: block;
     margin: auto;
@@ -49,26 +95,64 @@ h1,h2,p,a{
     width: 128px;
     filter: drop-shadow(4px 4px 5px #000000a9);
 }
-.line{
+
+.icon-mobile {
+    width: 100%;
+}
+
+.icon-mobile img {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+    top: calc(50% - 64px);
+    border-radius: 100%;
+    width: 80%;
+    filter: drop-shadow(4px 4px 5px #000000a9);
+}
+
+.line {
     margin: 0px 32px;
     width: 1px;
     background-color: #fafafaa7;
 }
-.profile{
+
+.line-mobile {
+    height: 1.5px;
+    border-radius: 2px;
+    width: 100%;
+    background-color: #fafafaa7;
+}
+
+.profile {
     width: 100%;
     height: auto;
     margin: auto 0px;
 }
-.name{
+
+.name {
     text-align: center;
 }
-.info{
+
+.name-mobile {
+    text-align: center;
+    font-size: 7vw;
+}
+
+.info {
     text-align: center;
     position: relative;
     top: -10px;
 }
 
-.sns{
+.info-mobile {
+    text-align: center;
+    position: relative;
+    top: -10px;
+    font-size: 4vw;
+}
+
+.sns {
     display: flex;
     width: calc(32px * 5);
     height: 32px;
@@ -76,15 +160,36 @@ h1,h2,p,a{
     filter: drop-shadow(1px 1px 2px #00000025);
 }
 
-.sns-icon{
+.sns-icon {
     width: 32px;
     height: 32px;
     filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
 }
 
-.sns-big{
+.sns-big {
     width: 27px;
     height: 27px;
     margin: 2.5px;
+    filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
+}
+
+.sns-mobile {
+    display: flex;
+    width: calc(14vw * 5);
+    height: 14vw;
+    margin: 0px auto;
+    filter: drop-shadow(1px 1px 2px #00000025);
+}
+
+.sns-icon-mobile {
+    width: 14vw;
+    height: 14vw;
+    filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
+}
+
+.sns-big-mobile {
+    width: calc(14vw * 0.84375);
+    height: calc(14vw * 0.84375);
+    margin: calc(14vw * 0.078125);
     filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
 }
